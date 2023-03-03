@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Anime Hay</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link icon Title -->
+    <link rel="icon" href="https://cdn.dribbble.com/users/1151435/screenshots/3181856/songoku-dribble.jpg" type="image/icon type">
+    <!-- <link rel="icon" href="icon_path" type="image/icon type"> -->
+    <!-- Link icon -->
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.2.1-web/css/all.min.css">
+    <!-- Link font chữ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,200;0,700;1,600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header__container grid wide">
+                <div class="search__container">
+                    <a href="#" class="search__logo-link">
+                        <i class="hide-off-mobile search__logo-icon fa-solid fa-video"></i>
+                        <h1 class="search__logo hide-off-mobile">A<span>n</span>i<span>m</span>e</h1>
+                    </a>
+                    <div class="search__item">
+                        <div class="search__item-with">
+                            <div class="search__input-container">
+                                <input type="text" id="search__input" class="search__input" placeholder="Vd: Tên phim, tên nhân vật ...">
+                                <span class="search__history">
+                                    <a href="" class="search__history-link">Nanatsu no Taizai</a>
+                                    <a href="" class="search__history-link">Bluelock</a>
+                                    <a href="" class="search__history-link">Ahiru no Sora</a>
+                                </span>                       
+                            </div>
+                            <button class="search__button">
+                                <i class="search__icon fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                        <label for="search__input" class="search__note">Công cụ tìm kiếm phim</label>
+                    </div>
+                    <span class="nav-sort__container hide-off-pc"><i class="nav-sort__container-icon fa-solid fa-bars"></i></span>
+
+                    <ul class="user__container">
+                        <li class="user__item">
+                            <a href="" class="user__link user__link--login">
+                                <i class="user__icon fa-solid fa-right-to-bracket"></i>Đăng nhập
+                            </a>
+                        </li>
+                        <li class="user__item">
+                            <a href="" class="user__link">Đăng ký</a>
+                        </li>
+                    </ul>
+    
+                    
+                </div>
+                
+                <ul class="nav__container">
+                    <li class="nav__item">
+                        <a href="" class="nav__link">
+                            <i class="nav__link-icon-house fa-solid fa-house"></i>Trang chủ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link">Thể loại
+                            <i class="nav__link-icon fa-solid fa-caret-right"></i>
+                        </a>
+                        <span class="nav__link-list">
+                            <a href="" class="nav__link-item">Hài hước</a>
+                            <a href="" class="nav__link-item">Hành động</a>
+                            <a href="" class="nav__link-item">Giả tưởng</a>
+                            <a href="" class="nav__link-item">Phiêu lưu</a>
+                            <a href="" class="nav__link-item">Khoa học viễn tưởng</a>
+                            <a href="" class="nav__link-item">Drama</a>
+                            <a href="" class="nav__link-item">Trẻ em</a>
+                            <a href="" class="nav__link-item">Shounen</a>
+                            <a href="" class="nav__link-item">Âm nhạc</a>
+                            <a href="" class="nav__link-item">Lãng mạng</a>
+                            <a href="" class="nav__link-item">Đời thường</a>
+                            <a href="" class="nav__link-item">Trường học</a>
+                            <a href="" class="nav__link-item">Siêu nhiên</a>
+                            <a href="" class="nav__link-item">Hentai</a>
+                            <a href="" class="nav__link-item">Mecha</a>
+                            <a href="" class="nav__link-item">Lịch sử</a>
+                            <a href="" class="nav__link-item">Ma thuật-Ảo thuật</a>
+                            <a href="" class="nav__link-item">Seinen</a>
+                            <a href="" class="nav__link-item">Ecchi</a>
+                            <a href="" class="nav__link-item">Thể thao</a>
+                            <a href="" class="nav__link-item"><span style="color: var(--label-color);">Khác</span></a>
+                        </span> 
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link">Quốc gia
+                            <i class="nav__link-icon fa-solid fa-caret-right"></i>
+                        </a>
+                        <span class="nav__link-list">
+                            <a href="" class="nav__link-item">Hàn quốc</a>
+                            <a href="" class="nav__link-item">Nhật bản</a>
+                            <a href="" class="nav__link-item">Việt nam</a>
+                            <a href="" class="nav__link-item">Trung quốc</a>
+                            <a href="" class="nav__link-item">Mỹ</a>
+                            <a href="" class="nav__link-item">Anh</a>
+                            <a href="" class="nav__link-item">Thủy điển</a>
+                            <a href="" class="nav__link-item">Thái</a>
+                            <a href="" class="nav__link-item">Đức</a>
+                            <a href="" class="nav__link-item">Đài loan</a>
+                            <a href="" class="nav__link-item">Ý</a>
+                            <a href="" class="nav__link-item"><span style="color: var(--label-color);">Khác</span></a>
+                        </span>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link">Theo mùa
+                            <i class="nav__link-icon fa-solid fa-caret-right"></i>
+                        </a>
+                        <span class="nav__link-list --s">
+                            <a href="" class="nav__link-item --s">Mùa xuân</a>
+                            <a href="" class="nav__link-item --s">Mùa hạ</a>
+                            <a href="" class="nav__link-item --s">Mùa thu</a>
+                            <a href="" class="nav__link-item --s">Mùa đông</a>
+                        </span>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link">Theo năm
+                            <i class="nav__link-icon fa-solid fa-caret-right"></i>
+                        </a>
+                        <span class="nav__link-list --m">
+                            <a href="" class="nav__link-item --link-m">Năm 2022</a>
+                            <a href="" class="nav__link-item --link-m">Năm 2021</a>
+                            <a href="" class="nav__link-item --link-m">Năm 2020</a>
+                            <a href="" class="nav__link-item --link-m">Năm 2019</a>
+                            <a href="" class="nav__link-item --link-m">Năm 2018</a>
+                            <a href="" class="nav__link-item --link-m">Năm 2017</a>
+                            <a href="" class="nav__link-item --link-m">Năm 2016</a>
+                            <a href="" class="nav__link-item --link-m">Năm 2015</a>
+                            <a href="" class="nav__link-item --link-m">Năm 2014</a>
+                            <a href="" class="nav__link-item --link-m"><span style="color: var(--label-color);">Khác</span></a>
+                        </span>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link">Phim bộ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link">Phim lẻ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link">Lịch chiếu phim</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    
+        <div class="main">
+            <div class="main__container grid wide">
+                <!-- SLIDER -->
+                <div class="slider__container">
+                    <a href="" class="slider__link">
+                        <div class="slider__img" style="background-image: url(./assets/img/slider/attack_on_titan2.jpg);"></div>
+                    </a>
+    
+                    <div class="slider__modal">
+                        <div class="slider__modal-container">
+                            <h2 class="slider__modal-heading">Attack on Titan</h2>
+                            <ul class="slider__modal-list">
+                                <li class="slider__modal-item">
+                                    <i class="slider__modal-icon slider__modal-icon--focus fa-solid fa-star"></i>9.8
+                                </li>
+                                <li class="slider__modal-item">
+                                    <i class="slider__modal-icon slider__modal-icon--label fa-regular fa-clock"></i>12/12 Tập
+                                </li>
+                                <li class="slider__modal-item">
+                                    <i class="slider__modal-icon slider__modal-icon--label fa-regular fa-calendar"></i>2022
+                                </li>
+                                <li class="slider__modal-item label--focus">HD</li>
+                            </ul>
+                            <span class="slider__modal-introduce">Mùa thứ tư Attack on Titan</span>
+                            <ul class="slider__modal-author">
+                                <li class="slider__modal-author-item">
+                                    <i class="slider__modal-author-icon slider__modal-icon--focus fa-solid fa-video"></i><span class="slider__modal-icon--label">Đạo diễn:</span>N/A
+                                </li>
+                                <li class="slider__modal-author-item">
+                                    <i class="slider__modal-author-icon slider__modal-icon--focus fa-solid fa-clapperboard"></i><span class="slider__modal-icon--label">Thể loại:</span>Học đường, Drama, Shounen
+                                </li>
+                            </ul>
+                            <a href="" class="slider__modal-link">
+                                <i class="slider__modal-link-icon fa-solid fa-play"></i>Xem phim</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="slider__container" style="background-image: url(./assets/img/slider/attack_on_titan.png);"></div> -->
+                <!-- <div class="slider__container" style="background-image: url(./assets/img/slider/one_piece.jpg);"></div> -->
+    
+                <!-- HOME -->
+                <div class="home__container">
+                    <div class="row">
+                        <!-- HOME PRODUCT -->
+                        <div class="col l-9 m-12 c-12">
+                            <div class="home__object">
+                                <span class="object__heading">Anime mới cập nhật
+                                    <i class="object__heading-icon fa-solid fa-chevron-right"></i>
+                                </span>
+                                <span class="object__list">
+                                        <a href="" class="object__link">Tất cả</a>
+                                        <a href="" class="object__link">Hành động</a>
+                                        <a href="" class="object__link">Phép thuật</a>
+                                        <a href="" class="object__link">Ecchi</a>
+                                        <a href="" class="object__link">Movie & OVA</a>
+                                </span>
+                            </div>
+                            <div class="home__product">
+                                <div class="row">
+                                    <!-- Item film -->
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/boruto.png);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">120</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>5.5</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Boruto: Naruto Next Generations</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>5.5
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>120/??? Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2022
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Naruto đã đạt ước nguyện của mình trở thành Hokaghe và kết hôn cùng Hinata sau đó có 2 đứa con Tên là Boruto và Himawari thế là Một thế hệ mới của Ninja đã sẵn sàng để có những giai đoạn mới nối tiếp Phần thứ 2 Naruto Shippuuden</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành động, Võ thuật, Shounen, Phiêu lưu, Siêu năng lực..</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Boruto: Naruto Next Generations</h4>
+                                                <span class="product__view">22,567 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/akame_ga_kill.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson"><i class="img__number">End</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Akame ga Kill!</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>24/24 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2014
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Tatsumi là một kiếm sĩ, đến thủ đô để tìm cách làm giàu cho ngôi làng nghèo khó của mình và trở thành nạn nhân của một vụ lừa tình lột tiền. Sau đó, cậu được một tiểu thư quý tộc tên là Aria cho tá túc. Đêm tiếp theo, nhóm sát thủ Night Raid do Akame chỉ huy tấn công vào tư dinh của Aria. Trong khi Tatsumi sắp một mất một còn với Akame để bảo vệ Aria thì một thành viên của nhóm sát thủ này đã làm sáng tỏ việc Aria bắt cóc thường dân và hành hạ mua vui, trong đó có cả 2 người bạn đồng hương của Tatsumi. Biết được tài năng của Tatsumi, Night Raid nhận cậu vào nhóm. Từ đây Tatsumi bắt đầu tham gia các kế hoạch ám sát, dần dần tạo tai tiếng cho tổ chức...</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Võ Thuật, Phiêu Lưu, Drama, Shounen, Tình Yêu, Giả Tưởng, Tragedy</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Akame ga Kill!</h4>
+                                                <span class="product__view">329,509 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/ao__ashi-2.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">22</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.8</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Ao Ashi</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.8
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>22/24 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2022
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Ashito Aoi là một cầu thủ bóng đá trẻ, đầy khát vọng đến từ một thị trấn vùng nông thôn ở Nhật Bản. Hy vọng vào được một trường trung học với một câu lạc bộ bóng đá giỏi đã tan thành mây khói khi anh gây ra một sự cố trong một trận đấu quan trọng cho đội của mình, dẫn đến việc họ bị loại và bị loại khỏi giải đấu. Tuy nhiên, anh đã lọt vào mắt xanh của một người quan trọng tình cờ đến thăm từ Tokyo. Mọi chuyện sẽ diễn ra như thế nào đối với Ashito?</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Thể Thao, Seinen</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Ao Ashi</h4>
+                                                <span class="product__view">66,579 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/black_clover.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">120</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.9</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Black Clover</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.9
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>120/??? Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2017
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Aster và Yuno là hai đứa trẻ bị bỏ rơi ở nhà thờ và cùng nhau lớn lên tại đó. Khi còn nhỏ, chúng đã hứa với nhau xem ai sẽ trở thành Ma pháp vương tiếp theo. Thế nhưng, khi cả hai lớn lên, mọi sô chuyện đã thay đổi. Yuno là thiên tài ma pháp với sức mạnh tuyệt đỉnh trong khi Aster lại không thể sử dụng ma pháp và cố gắng bù đắp bằng thể lực. Khi cả hai được nhận sách phép vào tuổi 15, Yuno đã được ban cuốn sách phép cỏ bốn bá (trong khi đa số là cỏ ba lá) mà Aster lại không có cuốn nào. Tuy nhiên, khi Yuno bị đe dọa, sự thật về sức mạnh của Aster đã được giải mã- cậu ta được ban cuốn sách phép cỏ năm lá, cuốn sách phá ma thuật màu đen. Bấy giờ, hai người bạn trẻ đang hướng ra thế giới, cùng chung mục tiêu.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Hoạt Hình, Hài Hước, Phép Thuật, Shounen, Giả Tưởng</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Black Clover</h4>
+                                                <span class="product__view">6,589,770 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/bleach.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">360</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.5</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Bleach</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.5
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>360/366 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2004
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Ichigo Kurosaki là một thiếu niên hung hăng, hay gây rắc rối và cậu có được một năng lực đặc bệt là có thể nhìn thấy linh hồn. Câu chuyện bắt đầu với sự xuất hiện bất ngờ của một người lạ ngay trong phòng ngủ của Ichigo. Người lạ mặt này chính là Shinigami (thần chết) Rukia Kuchiki, vô cùng ngạc nhiên trước việc Ichigo có thể nhìn thấy cô. Cuộc hội thoại của họ bị cắt ngang bằng việc một ác ma tấn công vào nhà của Ichigo. Sau khi bị thương tích đầy mình vì phải ra tay bảo vệ Ichigo, cô quyết định truyền một nửa năng lực thần chết của mình cho Ichigo để Ichigo tiêu diệt ác ma đó nhưng Ichigo lại vô tình lấy hết năng lượng của cô, giúp cậu tiêu diệt ác ma đó một cách dễ dàng. Ngày hôm sau, Rukia xuất hiện trong lớp học của Ichigo với tư cách là học sinh mới chuyển đến. Càng ngạc nhiên hơn nữa khi cậu biết rằng Rukia bây giờ là một người bình thường. Cô đặt giả thiết rằng chính năng lực kỳ lạ của Ichigo đã hút hết năng lực của cô, khiến cô bị mắc kẹt lại nhân gian, không trở lại Cõi Âm được nữa. Rukia đã chuyển linh hồn cô vào trong một gigai - một cơ thể nhân tạo - trong khi phục hồi lại năng lượng của mình. Trong thời gian này, cô phải chuyển giao công việc của mình cho Ichigo, tiệu diệt ác ma và đưa những linh hồn lạc lối đến Cõi Âm.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text"> Hành Động, Hoạt Hình, Hài Hước, Shounen, Giả Tưởng, Siêu Nhiên</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Bleach</h4>
+                                                <span class="product__view">921,336 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/blue_lock.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">13</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.7</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Blue Lock</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.7
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>13/24 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2022
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Yoichi Isagi đã bỏ lỡ cơ hội tham dự giải Cao Trung toàn quốc do đã chuyền cho đồng đội thay vì tự thân mình dứt điểm. Cậu là một trong 300 chân sút U-18 được tuyển chọn bởi Jinpachi Ego, người đàn ông được Hiệp Hội Bóng Đá Nhật Bản thuê sau hồi FIFA World Cup năm 2018, nhằm dẫn dắt Nhật Bản vô địch World Cup bằng cách tiêu diệt nền bóng đá Nhật Bản. Kế hoạch của Ego gồm việc cô lập 300 tay sút trong một nhà ngục - dưới một tổ chức với tên gọi là "Blue Lock", với mục tiêu là tạo ra chân sút "tự phụ" nhất thế giới, điều mà nền bóng đá Nhật Bản còn thiếu.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Thể Thao, Shounen</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Blue Lock</h4>
+                                                <span class="product__view">75,073 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/chainsaw_man.png);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">10</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.2</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Chainsaw Man</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.2
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>10/12 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2022
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Để trả số tiền nợ của người cha đã mất, cậu thiếu niên Denji cùng với Pochita - quỷ Máy Cưa, vừa làm công việc chủ yếu là thợ săn quỷ diệt trừ ác quỷ, vừa kiếm sống mưu sinh. Một ngày nọ, Denji bị tên yakuza mà cậu thỏa thuận công việc lừa gạt, cậu và Pochita đã bị quỷ Zombie sát hại. Thế nhưng, vì Pochita đã từng sống lại nhờ uống máu của Denji, nên để phục hồi cơ thể cho cậu, Pochita đã trở thành trái tim cho Denji. Sau khi hồi sinh, Denji sở hữu năng lực biến thân thành "quỷ Máy Cưa" và tiêu diệt bọn Zombie. Sau khi đánh bại kẻ thù, Denji nhận chỉ dẫn từ Makima, một thợ săn quỷ thuộc lực lượng an ninh, người đã chạy đến hiện trường lúc đó. Và thế là cơ thể của cậu từ đây bị bộ an ninh quản lí.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Phiêu Lưu, Ác Quỷ</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Chainsaw Man</h4>
+                                                <span class="product__view">291,371 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/deadth_note.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">27</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.4</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Death Note</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.4
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>27/37 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2006
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Yagami Light là một học sinh cấp III rất thông minh nhưng luôn cảm thấy cuộc sống xung quanh thật tẻ nhạt và phẫn nộ với những tội ác và tham nhũng xảy ra trên thế giới. Cuộc sống của Yagami chỉ thay đổi vào năm 2003 sau khi cậu tình cờ nhặt được một cuốn sổ kỳ bí có tên "Death Note" (Desu Nōto, sách chết). Lời hướng dẫn sử dụng trên cuốn sổ đã ghi rõ rằng những người bị viết tên vào đây sẽ chết. Lúc đầu Yagami nghi ngờ về tính xác thực của cuốn sổ, cứ nghĩ rằng đây là trò đùa tinh quái của ai đó. Tuy nhiên, sau khi dùng nó để giết hai tên tội phạm, cậu đã tin vào sự kỳ diệu của Death Note. Khi gặp được thần chết (shinigami) giữ cuốn sổ tên Ryuk, Light quyết định sẽ trở thành "vị Chúa của thế giới mới" (I am going become the God of the new world) bằng việc thay thế luật pháp phán xử những kẻ phạm tội chỉ bằng một bản án duy nhất, cái chết.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hoạt Hình, Tâm Lý, Siêu Năng Lực, Ác Quỷ, Trinh Thám</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Death Notes</h4>
+                                                <span class="product__view">360,615 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/dr_stone.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">8</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.6</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Dr Stone</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.6
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>8/12 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2019
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Vào một ngày định mệnh, toàn thể nhân loại đã bị hoá thành đá bởi một tia sáng kì lạ. Nhiều thiên niên kỷ trôi qua, cậu học sinh trung học Taiju đã thức tỉnh, đập vỡ lớp đá kia và bước ra khỏi thế giới bên ngoài. Trước mắt cậu là hàng loạt những pho tượng đá của nhiều người. Tuy nhiên, cậu không một mình. Trước mắt cậu, anh bạn Senku yêu khoa học đột nhiên xuất hiện và cậu ta có một kế hoạch vĩ đại trong đầu – Khôi phục lại nền văn mình nhân loại bằng khoa học.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Viễn Tưởng, Phiêu Lưu, Shounen, Seinen</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Dr Stone</h4>
+                                                <span class="product__view">615,082 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/gintama.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">240</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.4</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Gintama</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.4
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>240/265 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2006
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Đất nước của những Samurai. Có một thời đất nước chúng tôi được gọi như vậy.20 năm trước…Những kẻ ngoài hành tinh tự xưng là Amanto đột ngột đổ bộ xuống và thiết lập lệnh cấm mang kiếm. Samurai giờ đây bị khinh rẻ, coi thường. Trong thời đại như thế, vẫn còn một người đầy tinh thần samurai. Tên anh ta là Sakata Gintoki. Và tôi, Shimura Shinpachi, cùng Kagura-chan vì một số việc đưa đẩy mà bắt đầu làm việc cho cái tên vô trách nhiệm, hảo ngọt đó tại Vạn Sự Ốc. 3 người Vạn Sự Ốc chúng tôi sẽ cùng nhau dọn sạch Edo hủ bại này. Ừm, anime này là vậy thì phải?</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Hoạt Hình, Hài Hước, Viễn Tưởng, Shounen, Parody, Lịch Sử, Samurai</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Gintama</h4>
+                                                <span class="product__view">1,028,646 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/guilty\ _crown.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">22</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.3</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Guilty Crown</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.3
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>18/22 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2011
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Câu chuyện xảy ra ở Tokyo năm 2039. Cách đây 10 năm, sau cơn đại dịch virus Lost Christmas năm 2029, Nhật Bản hiện đang nằm dưới sự kiểm soát của một tổ chức đa quốc gia gọi là GHQ. Ouma Shuu là một cậu bé 17 tuổi sở hữu 1 sức mạnh đặc biệt ở bàn tay phải. Cậu ấy có thể dùng sức mạnh Quyền Năng Thượng Đế để chứa đựng vũ khí. Cuộc sống của Shuu đã thay đổi khi cậu ấy gặp được một cô gái tên Yuzuriha Inori, thành viên của một lực lượng đối kháng Undertaker…</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Viễn Tưởng, Drama, Shounen, Siêu Năng Lực</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Guilty Crown</h4>
+                                                <span class="product__view">115,268 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/jujutsu_kaisen.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">22</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Jujutsu Kaisen</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>22/24 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2020
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Vì một lý do kỳ lạ nào đó, Yuji Itadori, mặc dù với thể chất hoàn hảo nhưng anh lại đâm đầu vào tham gia CLB Huyền Bí. Tuy nhiên, họ đã sớm phát hiện ra là những câu chuyện huyền bí hoàn toàn có thật khi các thành viên trong CLB lần lượt bị tấn công! Trong khi đó, Megumi Fushiguro “bí ẩn” lại đang truy tìm một đối tượng bị nguyền rủa cấp đặc biệt và cuộc tìm kiếm này đã đưa nhóm bạn đến Itadori…</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Kinh Dị, Học Đường, Shounen, Ác Quỷ, Siêu Nhiên</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Jujutsu Kaisen</h4>
+                                                <span class="product__view">1,743,457 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/khien_hiep_si.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson"><i class="img__number">End</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.6</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Tate no Yuusha no Nariagari</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.6
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>24/24 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2019
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Iwatani Naofumi bị triệu hồi vào thế giới song song cùng với 3 thằng đực rựa khác. Mỗi đứa đều được trang bị 4 thanh Huyền Khí khi được triệu hồi, Naofumi được nhận Huyền Thuẫn. Tiếc cái ở cái thế giới này lại tôn thờ Tam Đại Thánh Khí (chém đó) bao gồm Thương, Cung, Kiếm và tất nhiên Khiên lại được cho là thứ tà giáo. Naofumi vừa được triệu hồi sẽ phải đối mặt với sự phản bội, sự tàn bạo, sự chà đạp,... của chính những kẻ gọi là con người ở đây. Liệu Naofumi sẽ chấp nhận cuộc sống không bằng người đó hay sẽ đứng dậy luyện khí bứt phá đập chết tụi nó?</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text"> Hành Động, Hoạt Hình, Hài Hước, Phiêu Lưu, Drama, Tình Yêu, Giả Tưởng, Isekai</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Tate no Yuusha no Nariagari</h4>
+                                                <span class="product__view">950,462 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/kimetsu_no-yaiba.png);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">20</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.3</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Kimetsu no Yaiba</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.3
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>20/26 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2019
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Vào thời xa xưa, có một truyền thuyết về những con quỷ ăn thịt người luôn lãng vãng trong cánh rừng sâu. Vì điều này, người dân trong làng không bao giờ đi ra ngoài vào trời tối. Truyền thuyến cũng kể rằng có một Sát Quỷ Nhân luôn xuất hiện vào ban đêm để tiêu diệt những con quỷ khát máu này. Đối với chàng trai trẻ Tanjiro, câu chuyện dân gian ấy đã trở thành hiện thực cay đắng mà cậu phải hứng chịu... Sau khi cha cậu qua đời, Tanjiro luôn cố gắng hết sức để trở thành trụ cột trong gia đình. Dù cuộc sống vất vả, cực khổ, những gia đình của cậu vẫn luôn ngập tràn hạnh phúc. Nhưng niềm hạnh phúc ấy cũngkhông kéo dài lâu được. Một ngày nọ, khi Tanjiro trở về, cậu phát hiện gia đình mình đã bị sát hại dã man, và chỉ có một người duy nhất sống sót, đó là em gái Nezuko của cậu. Nhưng bi kịch thay, Nezuko đã trở thành con quỷ đáng sợ. Tuy nhiên, cô vẫn còn giữ một chút nhân tính. Đó là thời điểm bắt đầu cuộc chiến đơn độc của Tanjiro, tiêu diệt quỷ và tìm cách biến em gái mình trở lại làm người.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text"> Hành Động, Hoạt Hình, Shounen, Ác Quỷ, Lịch Sử</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Kimetsu no Yaiba</h4>
+                                                <span class="product__view">1,109,373 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/love_all_play.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">22</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>7.8</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Love All Play</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>7.8
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>22/23 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2022
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Câu chuyện kể về Ryō Mizushima, người đã tham gia đội cầu lông của trường trung học với đầy động lực – nhưng không có huấn luyện viên phù hợp, kết thúc trong mờ mịt. Tuy nhiên, cuối cùng cậu đã đạt được giải đấu cấp tỉnh nhờ sức mạnh thể chất của mình. Giờ đây, cậu gia nhập đội cầu lông của trường trung học Yokohama-Minato danh tiếng dưới sự dẫn dắt của huấn luyện viên huyền thoại Ebihara và được bao quanh bởi những đồng đội tài năng. Phấn đấu để trở thành một vận động viên hàng đầu và đưa đội trung học của mình tham dự giải đấu liên trường.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Thể Thao</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Love All Play</h4>
+                                                <span class="product__view">13,315 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/my_hero_academe.png);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">14</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>8.2</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Boku no Hero Academia</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>8.2
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>14/25 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2022
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Thế giới sẽ như thế nào nếu 80% dân số bộc phát những năng lực đặc biệt từ lúc 4 tuổi? Anh hùng và tội phạm sẽ đối đầu với nhau không ngừng nghỉ. Làm anh hùng đồng nghĩa với việc học cách sử dụng năng lực của mình, nhưng ta sẽ học ở đâu? Tất nhiên là chương trình đào tạo anh hùng của A.U rồi! Nhưng sẽ thế nào nếu bạn nằm trong 20% dân số không có năng lực? Izuku Midoriya, một học sinh cấp 2, rất khao khát muốn trở thành anh hùng, nhưng cậu lại không hề có sức mạnh. Không có cơ hội vào được trường đào tạo anh hùng, cuộc đời cậu tưởng như đã kết thúc. Nhưng cuộc gặp gỡ với All Might, anh hùng vĩ đại nhất đã cho cậu cơ hội thay đổi số mệnh của mình…</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Hài Hước, Học Đường, Shounen, Siêu Năng Lực</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Boku no Hero Academia</h4>
+                                                <span class="product__view">79,727 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/overlord.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson"><i class="img__number">End</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.6</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Overlord</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.6
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>13/13 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2022
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Cốt truyện anime sẽ đưa khán giả đến năm 2138 trong tương lai, khi khoa học công nghệ phát triển vượt bậc và ngành game thực tế ảo đang nở rộ hơn bao giờ hết. Yggdrasil, một game online vô cùng phổ biến thời gian đó bỗng dưng bị đóng cửa đột ngột, nhưng nhân vật chính Momonga lại quyết định không thoát ra ngoài và khám phá những điều bí ẩn khi thế giới ảo quanh mình ngày một thay đổi.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hoạt Hình, Isekai</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Overlord</h4>
+                                                <span class="product__view">596,198 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/sword_art_online.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson"><i class="img__number">End</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.4</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Sword Art Online</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.4
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>26/26 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2022
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Năm 2022, thế hệ game chạy trên NERvGear tiếp theo đã được công bố, người dùng có thể kết nối với thế giới ảo thông qua chức năng FullDive. SAO (Sword Art Online) - dòng game VRMMORPG chính thống đầu tiên trên nền NERvGear đã gây xôn xao trên toàn thế giới. Một trong số rất nhiều người chơi, Kirito, quyết tâm chinh phục trò chơi này. Thế nhưng, người sáng tạo ra SAO, Akihiko Kayaba lại thông báo rằng: Một khi đã tham gia thì không người chơi nào có thể thoát ra ngoài cho đến khi phá đảo. Game Over tương đương với cái chết thực sự ngoài đời.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Viễn Tưởng, Phiêu Lưu, Game, Tình Yêu, Isekai</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Sword Art Online</h4>
+                                                <span class="product__view">930,890 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/tales_of_zestiria.png);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">11</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>8.9</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Tales of Zestiria the Cross</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>8.9
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>11/12 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2016
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Sorey là một con người, những người lớn lên ở nơi những vị thần Seraphim, thần linh không thể nhìn thấy con người. Sorey tin trong văn học dân gian nói rằng "từ lâu, mọi người đã có thể nhìn thấy các thần Seraphim" và ước mơ làm sáng tỏ những bí ẩn cổ xưa để làm cho thế giới mà mọi người và thần Seraphim có thể sống hòa bình với nhau. Một ngày nọ, Sorey thăm thủ đô của con người lần đầu tiên. Cậu bị lôi kéo vào một vụ việc trong đó Cậu rút ra một thanh kiếm thánh nhúng vào trong một tảng đá và trở thành một Shepherd, và sứ mệnh của cậu bắt đầu cùng với các đồng đội của cậu ta</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text"> Hành Động, Phiêu Lưu, Phép Thuật, Giả Tưởng</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Tales of Zestiria the Cross</h4>
+                                                <span class="product__view">69,473 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/tensei_shitara_slime_datta_ken.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">17</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.5</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Tensei Shitara Slime Datta Ken</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.5
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>17/25 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2022
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Câu chuyện bắt đầu với anh chàng Satoru Mikami, một nhân viên 37 tuổi sống cuộc sống chán chường và không vui vẻ gì. Trong một lần gặp cướp, anh đã bị mất mạng. Tưởng chừng cuộc sống chán ngắt ấy đã kết thúc, nhưng không! Ấy lại chính là sự khởi đầu của một cuộc sống mới. Mikami thức dậy, thấy mình đang ở trong một thế giới kì lạ. Và điều quái dị là anh không còn hình dạng người nữa, mà anh đã trở thành quái vật slime dẻo quẹo và không có mắt. Khi dần quen với hình dáng mới này, anh bắt đầu khám phá thế giới cùng với những quái vật khác, và công cuộc thay đổi thế giới mới đã bắt đầu.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Hài Hước, Phiêu Lưu, Drama, Giả Tưởng, Isekai</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Tensei Shitara Slime Datta Ken</h4>
+                                                <span class="product__view">1,468,980 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/that_nghiep_chuyen_sinh.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">10</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Mushoku Tensei: Jobless Reincarnation</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>10/12 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2021
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">"Tôi sẽ nghiêm túc ở cái dị giới này!"
+                                                                Có một người đàn ông 34 tuổi vẫn là giai tân, thất nghiệp, một NEET chính hiệu. Vào đúng ngày tang lễ của cha mẹ mình, anh bị họ hàng đuổi ra khỏi nhà, rồi bị xe tải tông chết mà qua đời. Khi tỉnh lại, anh nhận ra mình đã đầu thai vào một đứa bé ở một thế giới xa lạ với kiếm và ma pháp!
+                                                                Từng sống như một kẻ cặn bã của xã hội, nay anh quyết tâm làm lại cuộc đời dưới dưới cái tên Rudeus!
+                                                                Đón đợi anh là một cô nàng ma thuật sĩ bé nhỏ, một cô bé xinh đẹp mang đôi tai Elf, một tiểu thư Tsundere hung dữ và biết bao nhân vật khác...
+                                                                Hành trình cùng những cuộc chiến khốc liệt bắt đầu.
+                                                                "Câu chuyện kỳ ảo về hành trình làm lại cuộc đời bắt đầu!"</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Drama, Phép Thuật, Giả Tưởng, Isekai</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Mushoku Tensei: Jobless Reincarnation</h4>
+                                                <span class="product__view">261,887 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/tokyo_gout.png);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">11</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Tokyo Ghoul</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>11/12 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2014
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Tokyo Ghoul là một câu chuyện mang bầu sắc u tối của thành phố Tokyo, nơi xảy ra hàng loạt các vụ án mạng được gây ra bởi các con quỷ đội lốt con người. Main chính nhà ta là sinh viên đại học tên Kaneki gặp gỡ được em Rize, do 2 người có cùng sở thích nên đã phải lòng nhau. Vào buổi tối hôm hẹn hò, em và ảnh cùng nhau đi vào một con phố hẻo rồi cuộc đời anh main thay đổi ngay trong đêm hôm đó.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Tâm Lý, Kinh Dị, Drama, Seinen, Mystery, Siêu Nhiên</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Tokyo Ghoul</h4>
+                                                <span class="product__view">245,123 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/tomodachi_game.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">7</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.5</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Tomodachi Game</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.5
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>7/12 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2022
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Yuuichi Katagiri đã phải chiến đấu với khó khăn tài chính cả đời nhưng đã học được cách sống hài lòng và tích cực nhờ vào những người bạn thân thiết của mình. Để giữ lời hứa với họ, Yuuichi tiết kiệm đủ tiền để cùng họ tham gia chuyến đi đến trường. Nhưng khi số tiền thu thập được mất tích một cách bí ẩn, sự nghi ngờ rơi vào hai người bạn của Yuuichi: Shiho Sawaragi và Makoto Shibe, những người chịu trách nhiệm thu tiền. Mặc dù vô tội, Shiho và Makoto phải chịu trách nhiệm về việc không bảo vệ số tiền khi không có ai khác ra mặt.
+                                                                Vài ngày sau, Yuuichi và những người bạn của cậu ấy nhận được những bức thư bí ẩn lừa mỗi người họ gặp nhau. Khi đến nơi, họ bị phục kích và đánh bất tỉnh. Họ thức dậy trong một căn phòng bí ẩn trước sự chứng kiến ​​của "Manabu-kun", một nhân vật trong một chương trình dành cho trẻ em gây tranh cãi đã ngừng phát sóng do nội dung độc hại của nó. Anh ta thông báo cho cả nhóm rằng một trong số họ đã gián tiếp tập hợp họ lại với nhau để giải quyết một khoản nợ lớn. Họ phải chơi một "trò chơi tình bạn": một loạt các trò chơi sẽ kiểm tra độ bền của mối quan hệ và sự tin tưởng của họ đối với nhau. Khi niềm tin của cả nhóm bị lung lay do ngày càng có nhiều bí mật và sự phản bội, Yuuichi phải tìm ra ai trong số những người "bạn bè" mà anh ấy thực sự có thể tin tưởng và cuối cùng khám phá ra danh tính của kẻ phản bội.n</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Tâm Lý, Shounen, Game</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Tomodachi Game</h4>
+                                                <span class="product__view">38,519 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/akatsuki_no_yona.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson">Tập<i class="img__number">20</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>9.5</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Akatsuki no Yona</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>9.5
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>20/24 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2019
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Bối cảnh xảy ra ở một vương quốc có tên là Cao Hoa. Yona - nàng công chúa độc nhất của vương quốc, có một cuộc sống gần như hoàn hảo mọi bề với lụa là gấm vóc, cao lương mỹ vị và một người cha rất mực cưng chiều nàng. Chỉ cần Soo-won, - người anh họ mà Yona trót lòng yêu - để ý đến nàng hơn một chút, và Hak - tên hộ vệ thân cận - bớt lắm lời hơn một chút, là cuộc sống của Yona sẽ cực kì viên mãn. Thế nhưng, ngay ngày sinh nhật của nàng chính Soo-won đã ám sát hoàng thượng Il, và đẩy nàng cùng Hak dấn bước vào một chuyến hành trình tìm kiếm sức mạnh của tứ long trong truyền thuyết, hòng mong một ngày có cơ hội báo thù...</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Hài Hước, Tình Yêu, Giả Tưởng, Shoujo</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Akatsuki no Yona</h4>
+                                                <span class="product__view">108,936 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="col l-2-4 m-3 c-6 hide-off-table-mobile">
+                                        <a href="" class="product__item">
+                                            <div class="img__container">
+                                                <p class="img__block">
+                                                    <span class="img__item" style="background-image: url(./assets/img/main/tokyo_revenger.jpg);"></span>
+                                                </p>
+                                                <span class="img__note">
+                                                    <span class="img__lesson"><i class="img__number">End</i>
+                                                    </span>
+                                                    <span class="img__comment"><i class="img__comment-icon fa-solid fa-star"></i>8.5</span>
+                                                </span>
+                                                <div class="img__modal-container">
+                                                    <i class="img__modal-icon fa-solid fa-play"></i>
+    
+                                                    <div class="img__introduce">
+                                                        <div class="img__introduce-container">
+                                                            <h4 class="img__introduce-heading">Tokyo Revengers</h4>
+                                                            <ul class="img__introduce-list">
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--focus fa-solid fa-star"></i>8.5
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-clock"></i>24/24 Tập
+                                                                </li>
+                                                                <li class="img__introduce-item">
+                                                                    <i class="img__introduce-icon img__introduce-icon--label fa-regular fa-calendar"></i>2021
+                                                                </li>
+                                                                <li class="img__introduce-item label--focus">HD</li>
+                                                            </ul>
+                                                            <p class="img__introduce-text">Cuộc sống của Takemichi Hanagaki đang ở mức thấp nhất mọi thời đại. Ngay khi anh nghĩ rằng mọi chuyện không thể tồi tệ hơn, anh phát hiện ra rằng Hinata Tachibana, bạn gái cũ của anh, đã bị sát hại bởi Tokyo Manji Gang: một nhóm tội phạm độc ác đã phá rối hòa bình của xã hội trong một thời gian khá dài.
+                                                                Tự hỏi mọi chuyện đã sai ở đâu, Takemichi đột nhiên thấy mình đang du hành xuyên thời gian, kết thúc 12 năm trong quá khứ — khi anh vẫn còn mối quan hệ với Hinata. Nhận ra mình có cơ hội cứu cô, Takemichi quyết tâm thâm nhập vào băng Tokyo Manji và leo lên hàng ngũ để viết lại tương lai và cứu Hinata khỏi số phận bi thảm của cô.</p>
+                                                            <span class="img__introduce-kind"><i class="img__introduce-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Học Đường, Drama, Shounen</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__content">
+                                                <h4 class="product__name">Tokyo Revengers</h4>
+                                                <span class="product__view">161,622 lượt xem</span>
+                                            </div>
+                                        </a>                                    
+                                    </div>
+                                    
+                                </div>
+                            </div>
+    
+                            <div class="home__more">
+                                <a href="" class="home__more-link">Xem thêm</a>
+                            </div>
+                        </div>
+                        <!-- HOME RANK -->
+                        <div class="col l-3 m-12 c-12">
+                            <div class="home__rank">
+                                <h4 class="rank__heading">xem nhiều nhất</h4>
+                                <span class="rank__nav">
+                                    <a href="" class="rank__object">Ngày</a>
+                                    <a href="" class="rank__object">Tuần</a>
+                                    <a href="" class="rank__object">Tháng</a>
+                                    <a href="" class="rank__object">Năm</a>
+                                </span>
+    
+                                <div class="rank__list">
+                                    <a href="" class="rank__link">
+                                        <span class="rank__img" style="background-image: url(./assets/img/rank/dragon_ball.jpg);">
+                                            <span class="rank__modal">
+                                                <span class="rank__modal-content">
+                                                    <i class="rank__modal-icon fa-solid fa-play"></i>
+                                                </span>
+                                            </span>
+                                            <span class="rank__number">#1</span>
+                                        </span>
+                                        <div class="rank__item">
+                                            <h4 class="rank__name">Dragon Ball Super</h4>
+                                            <p class="rank__comment">
+                                                <span class="rank__comment-item"><i class="rank__comment-icon rank__comment-icon--star fa-solid fa-star"></i>9.9</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-solid fa-stopwatch"></i>28 Phút</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-regular fa-calendar"></i>2022</span>
+                                            </p>
+                                            <span class="rank__view">2,500,999 Lượt xem</span>
+                                        </div>
+                                    </a>
+                                    <a href="" class="rank__link">
+                                        <span class="rank__img" style="background-image: url(./assets/img/rank/souma.png);">
+                                            <span class="rank__modal">
+                                                <span class="rank__modal-content">
+                                                    <i class="rank__modal-icon fa-solid fa-play"></i>
+                                                </span>
+                                            </span>
+                                            <span class="rank__number">#2</span>
+                                        </span>
+                                        <div class="rank__item">
+                                            <h4 class="rank__name">Shokugeki no Souma</h4>
+                                            <p class="rank__comment">
+                                                <span class="rank__comment-item"><i class="rank__comment-icon rank__comment-icon--star fa-solid fa-star"></i>9.4</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-solid fa-stopwatch"></i>28 Phút</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-regular fa-calendar"></i>2022</span>
+                                            </p>
+                                            <span class="rank__view">2,323,999 Lượt xem</span>
+                                        </div>
+                                    </a>
+                                    <a href="" class="rank__link">
+                                        <span class="rank__img" style="background-image: url(./assets/img/rank/one_piece.jpg);">
+                                            <span class="rank__modal">
+                                                <span class="rank__modal-content">
+                                                    <i class="rank__modal-icon fa-solid fa-play"></i>
+                                                </span>
+                                            </span>
+                                            <span class="rank__number">#3</span>
+                                        </span>
+                                        <div class="rank__item">
+                                            <h4 class="rank__name">One Piece</h4>
+                                            <p class="rank__comment">
+                                                <span class="rank__comment-item"><i class="rank__comment-icon rank__comment-icon--star fa-solid fa-star"></i>8.6</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-solid fa-stopwatch"></i>23 Phút</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-regular fa-calendar"></i>2022</span>
+                                            </p>
+                                            <span class="rank__view">1,588,336 Lượt xem</span>
+                                        </div>
+                                    </a>
+                                    <a href="" class="rank__link">
+                                        <span class="rank__img" style="background-image: url(./assets/img/rank/pokemon.jpg);">
+                                            <span class="rank__modal">
+                                                <span class="rank__modal-content">
+                                                    <i class="rank__modal-icon fa-solid fa-play"></i>
+                                                </span>
+                                            </span>
+                                            <span class="rank__number">#4</span>
+                                        </span>
+                                        <div class="rank__item">
+                                            <h4 class="rank__name">Pokemon</h4>
+                                            <p class="rank__comment">
+                                                <span class="rank__comment-item"><i class="rank__comment-icon rank__comment-icon--star fa-solid fa-star"></i>8.4</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-solid fa-stopwatch"></i>24 Phút</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-regular fa-calendar"></i>2022</span>
+                                            </p>
+                                            <span class="rank__view">437,258 Lượt xem</span>
+                                        </div>
+                                    </a>
+                                    <a href="" class="rank__link">
+                                        <span class="rank__img" style="background-image: url(./assets/img/rank/black_clover.jpg);">
+                                            <span class="rank__modal">
+                                                <span class="rank__modal-content">
+                                                    <i class="rank__modal-icon fa-solid fa-play"></i>
+                                                </span>
+                                            </span>
+                                            <span class="rank__number">#5</span>
+                                        </span>
+                                        <div class="rank__item">
+                                            <h4 class="rank__name">Black Clover</h4>
+                                            <p class="rank__comment">
+                                                <span class="rank__comment-item"><i class="rank__comment-icon rank__comment-icon--star fa-solid fa-star"></i>9</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-solid fa-stopwatch"></i>25 Phút</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-regular fa-calendar"></i>2017</span>
+                                            </p>
+                                            <span class="rank__view">396,473 Lượt xem</span>
+                                        </div>
+                                    </a>
+                                    <a href="" class="rank__link">
+                                        <span class="rank__img" style="background-image: url(./assets/img/rank/kimetsu_no-yaiba.png);">
+                                            <span class="rank__modal">
+                                                <span class="rank__modal-content">
+                                                    <i class="rank__modal-icon fa-solid fa-play"></i>
+                                                </span>
+                                            </span>
+                                            <span class="rank__number">#6</span>
+                                        </span>
+                                        <div class="rank__item">
+                                            <h4 class="rank__name">Kimetsu no Yaiba</h4>
+                                            <p class="rank__comment">
+                                                <span class="rank__comment-item"><i class="rank__comment-icon rank__comment-icon--star fa-solid fa-star"></i>9.6</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-solid fa-stopwatch"></i>28 Phút</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-regular fa-calendar"></i>2021</span>
+                                            </p>
+                                            <span class="rank__view">270,573 Lượt xem</span>
+                                        </div>
+                                    </a>
+                                    <a href="" class="rank__link">
+                                        <span class="rank__img" style="background-image: url(./assets/img/rank/overlord.jpg);">
+                                            <span class="rank__modal">
+                                                <span class="rank__modal-content">
+                                                    <i class="rank__modal-icon fa-solid fa-play"></i>
+                                                </span>
+                                            </span>
+                                            <span class="rank__number">#7</span>
+                                        </span>
+                                        <div class="rank__item">
+                                            <h4 class="rank__name">Overlord IV</h4>
+                                            <p class="rank__comment">
+                                                <span class="rank__comment-item"><i class="rank__comment-icon rank__comment-icon--star fa-solid fa-star"></i>9.5</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-solid fa-stopwatch"></i>23 Phút</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-regular fa-calendar"></i>2022</span>
+                                            </p>
+                                            <span class="rank__view">242,593 Lượt xem</span>
+                                        </div>
+                                    </a>
+                                    <a href="" class="rank__link">
+                                        <span class="rank__img" style="background-image: url(./assets/img/rank/kuroko.jpg);">
+                                            <span class="rank__modal">
+                                                <span class="rank__modal-content">
+                                                    <i class="rank__modal-icon fa-solid fa-play"></i>
+                                                </span>
+                                            </span>
+                                            <span class="rank__number">#8</span>
+                                        </span>
+                                        <div class="rank__item">
+                                            <h4 class="rank__name">Kuroko</h4>
+                                            <p class="rank__comment">
+                                                <span class="rank__comment-item"><i class="rank__comment-icon rank__comment-icon--star fa-solid fa-star"></i>9.9</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-solid fa-stopwatch"></i>28 Phút</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-regular fa-calendar"></i>2017</span>
+                                            </p>
+                                            <span class="rank__view">240,555 Lượt xem</span>
+                                        </div>
+                                    </a>
+                                    <a href="" class="rank__link">
+                                        <span class="rank__img" style="background-image: url(./assets/img/rank/doraemon.jpg);">
+                                            <span class="rank__modal">
+                                                <span class="rank__modal-content">
+                                                    <i class="rank__modal-icon fa-solid fa-play"></i>
+                                                </span>
+                                            </span>
+                                            <span class="rank__number">#9</span>
+                                        </span>
+                                        <div class="rank__item">
+                                            <h4 class="rank__name">Doraemon</h4>
+                                            <p class="rank__comment">
+                                                <span class="rank__comment-item"><i class="rank__comment-icon rank__comment-icon--star fa-solid fa-star"></i>9.2</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-solid fa-stopwatch"></i>28 Phút</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-regular fa-calendar"></i>2022</span>
+                                            </p>
+                                            <span class="rank__view">233,679 Lượt xem</span>
+                                        </div>
+                                    </a>
+                                    <a href="" class="rank__link">
+                                        <span class="rank__img" style="background-image: url(./assets/img/rank/conan.jpg);">
+                                            <span class="rank__modal">
+                                                <span class="rank__modal-content">
+                                                    <i class="rank__modal-icon fa-solid fa-play"></i>
+                                                </span>
+                                            </span>
+                                            <span class="rank__number">#10</span>
+                                        </span>
+                                        <div class="rank__item">
+                                            <h4 class="rank__name">Conan</h4>
+                                            <p class="rank__comment">
+                                                <span class="rank__comment-item"><i class="rank__comment-icon rank__comment-icon--star fa-solid fa-star"></i>8.7</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-solid fa-stopwatch"></i>28 Phút</span>
+                                                <span class="rank__comment-item"><i class="rank__comment-icon fa-regular fa-calendar"></i>2022</span>
+                                            </p>
+                                            <span class="rank__view">221,447 Lượt xem</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- <div class="home__more hide-on-table-mobile">
+                                <a href="" class="home__more-link">Xem thêm</a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="row hide-off-table-mobile">
+                        <!-- HOME TRAILER -->
+                        <div class="col l-12 m-12 c-12">
+                            <div class="home__trailer">
+                                <span class="trailer__heading">Phim sắp chiếu</span>
+                            </div>
+                        </div>
+    
+                        <!-- HOME TRAILER -->
+                        <div class="col l-6 m-12 c-12">
+                            <div class="trailer__main">
+                                <a href="" class="trailer__item">
+                                    <div class="trailer__container">
+                                        <p class="trailer__img-block">
+                                            <span class="trailer__photo" style="background-image: url(./assets/img/trailer/goblin_slayder.jpg);"></span>
+                                        </p>
+                                        <div class="trailer__img-modal">
+                                            <div class="trailer__img-introduce">
+                                                <div class="trailer__img-introduce-container">
+                                                    <h4 class="trailer__img-heading">Goblin Slayer 2nd Season</h4>
+                                                    <ul class="trailer__img-list">
+                                                        <li class="trailer__img-item">
+                                                            <i class="trailer__img-icon trailer__img-icon--label fa-regular fa-clock"></i>28 Phút/ Tập
+                                                        </li>
+                                                        <li class="trailer__img-item">
+                                                            <i class="trailer__img-icon trailer__img-icon--label fa-regular fa-calendar"></i>2023
+                                                        </li>
+                                                        <li class="trailer__img-item label--focus">HD</li>
+                                                    </ul>
+                                                    <p class="trailer__img-text ">Mùa thứ hai của Goblin Slayer .</p>
+                                                    <span class="trailer__img-kind "><i class="trailer__img-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Phiêu Lưu, Giả Tưởng</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trailer__content">
+                                        <h4 class="trailer__name">Goblin Slayer 2nd Season</h4>
+                                    </div>
+                                </a>          
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="trailer__main">
+                                <a href="" class="trailer__item">
+                                    <div class="trailer__container">
+                                        <p class="trailer__img-block">
+                                            <span class="trailer__photo" style="background-image: url(./assets/img/trailer/sword_art_online.jpg);"></span>
+                                        </p>
+                                        <div class="trailer__img-modal">
+                                            <div class="trailer__img-introduce">
+                                                <div class="trailer__img-introduce-container">
+                                                    <h4 class="trailer__img-heading">Sword Art Online: Progressive - Scherzo of Deep Night</h4>
+                                                    <ul class="trailer__img-list">
+                                                        <li class="trailer__img-item">
+                                                            <i class="trailer__img-icon trailer__img-icon--label fa-regular fa-clock"></i>???
+                                                        </li>
+                                                        <li class="trailer__img-item">
+                                                            <i class="trailer__img-icon trailer__img-icon--label fa-regular fa-calendar"></i>2023
+                                                        </li>
+                                                        <li class="trailer__img-item label--focus">HD</li>
+                                                    </ul>
+                                                    <p class="trailer__img-text ">Movie Tiếp theo của Series SAO Sword art Online</p>
+                                                    <span class="trailer__img-kind "><i class="trailer__img-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Phiêu Lưu, Movie & OVA, Tình Yêu, Giả Tưởng, Isekai</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trailer__content">
+                                        <h4 class="trailer__name">Sword Art Online: Progressive - Scherzo of Deep Night</h4>
+                                    </div>
+                                </a>          
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="trailer__main">
+                                <a href="" class="trailer__item">
+                                    <div class="trailer__container">
+                                        <p class="trailer__img-block">
+                                            <span class="trailer__photo" style="background-image: url(./assets/img/trailer/kimetsu_no_yaiba.png);"></span>
+                                        </p>
+                                        <div class="trailer__img-modal">
+                                            <div class="trailer__img-introduce">
+                                                <div class="trailer__img-introduce-container">
+                                                    <h4 class="trailer__img-heading">Kimetsu no Yaiba Season 3</h4>
+                                                    <ul class="trailer__img-list">
+                                                        <li class="trailer__img-item">
+                                                            <i class="trailer__img-icon trailer__img-icon--label fa-regular fa-clock"></i>28 Phút/ Tập
+                                                        </li>
+                                                        <li class="trailer__img-item">
+                                                            <i class="trailer__img-icon trailer__img-icon--label fa-regular fa-calendar"></i>2023
+                                                        </li>
+                                                        <li class="trailer__img-item label--focus">HD</li>
+                                                    </ul>
+                                                    <p class="trailer__img-text ">Mùa thứ 3 của anime Kimetsu no Yaiba Arc Làng thợ rèn</p>
+                                                    <span class="trailer__img-kind "><i class="trailer__img-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành Động, Anime, Shounen, Giả Tưởng, Lịch Sử</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trailer__content">
+                                        <h4 class="trailer__name">Kimetsu no Yaiba Season 3</h4>
+                                    </div>
+                                </a>          
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="trailer__main">
+                                <a href="" class="trailer__item">
+                                    <div class="trailer__container">
+                                        <p class="trailer__img-block">
+                                            <span class="trailer__photo" style="background-image: url(./assets/img/trailer/solo_leveling-2.png);"></span>
+                                        </p>
+                                        <div class="trailer__img-modal">
+                                            <div class="trailer__img-introduce">
+                                                <div class="trailer__img-introduce-container">
+                                                    <h4 class="trailer__img-heading">Solo Leveling</h4>
+                                                    <ul class="trailer__img-list">
+                                                        <li class="trailer__img-item">
+                                                            <i class="trailer__img-icon trailer__img-icon--label fa-regular fa-clock"></i>28 Phút/ Tập
+                                                        </li>
+                                                        <li class="trailer__img-item">
+                                                            <i class="trailer__img-icon trailer__img-icon--label fa-regular fa-calendar"></i>2023
+                                                        </li>
+                                                        <li class="trailer__img-item label--focus">HD</li>
+                                                    </ul>
+                                                    <p class="trailer__img-text ">Siêu phẩm hứa hẹn đến từ đất nước Hàn Quốc</p>
+                                                    <span class="trailer__img-kind "><i class="trailer__img-kind-icon fa-solid fa-clapperboard"></i>Thể loại: <span class="img__introduce-kind-text">Hành động, Võ thuật, Shounen, Phiêu lưu, Siêu năng lực</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="trailer__content">
+                                        <h4 class="trailer__name">Solo Leveling</h4>
+                                    </div>
+                                </a>          
+                            </div>
+                        </div>
+    
+                        <div class="col l-12 m-12 c-12">
+                            <div class="home__more">
+                                <a href="" class="home__more-link">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HOME CINEMA -->
+                    <div class="row">
+                        <div class="col l-12 c-12 m-12">
+                            <a href="#" class="home__cinema">
+                                <span class="cinema__heading">Phim chiếu rạp</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-4">
+                            <div class="cinema__container">
+                                <a href="#" class="cinema__item">
+                                    <span class="cinema__img" style="background-image: url(./assets/img/cinema/red.jpg);">
+                                    </span>
+                                    <span class="cinema__name">
+                                        Red
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="cinema__container">
+                                <a href="#" class="cinema__item">
+                                    <span class="cinema__img" style="background-image: url(./assets/img/cinema/red.jpg);">
+                                    </span>
+                                    <span class="cinema__name">
+                                        Red
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="cinema__container">
+                                <a href="#" class="cinema__item">
+                                    <span class="cinema__img" style="background-image: url(./assets/img/cinema/red.jpg);">
+                                    </span>
+                                    <span class="cinema__name">
+                                        Red
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <footer class="footer">
+            <div class="footer__container grid wide">
+                <div class="footer__object">
+                    <span class="footer__object-item">
+                        <a href="" class="footer__object-link">Thuật ngữ anime</a>
+                        <a href="" class="footer__object-link">Báo lỗi</a>
+                        <a href="" class="footer__object-link">Chính sách riêng tư</a>
+                    </span>
+    
+                    <ul class="footer__info">
+                        <li class="footer__info-item">
+                            <a href="" class="footer__info-link"><i class="footer__info-icon fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="footer__info-item">
+                            <a href="" class="footer__info-link"><i class="footer__info-icon fa-brands fa-twitter"></i></i></a>
+                        </li>
+                        <li class="footer__info-item">
+                            <a href="" class="footer__info-link"><i class="footer__info-icon fa-solid fa-envelope"></i></i></a>
+                        </li>
+                        <li class="footer__info-item">
+                            <a href="/#" class="footer__info-link footer__info-link--home"><i class="footer__info-icon fa-solid fa-up-long"></i></i></a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <p class="footer__text">
+                    Animet Hay không chịu trách nhiệm đối với bất kỳ nội dung nào được đăng tải trong trang web này. <br>
+                    Mọi nội dung đều được sưu tầm và nhúng vào website tương tự như công cụ tìm kiếm Google. <br>
+                    Copyright ® 2022 Animet Hay.
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body"> -->
+            <!-- LOGIN BEGIN -->
+            <!-- <div class="login__container">
+                <div class="login__content">
+                    <span class="login-content__name">
+                        Anime
+                        <span>Hay</span>
+                    </span>
+                    <div class="login-content__main">
+                        <h4 class="login-content__heading">
+                            Sign in to Account
+                        </h4>
+                        <span class="modal-contact__list">
+                            <a href="#" class="modal-contact__link"><i class="modal-contact__icon fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="modal-contact__link"><i class="modal-contact__icon fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="modal-contact__link"><i class="modal-contact__icon fa-brands fa-google-plus-g"></i></a>
+                        </span>
+                        <p class="modal-contact__text">
+                            or use your email account
+                        </p>
+                        <span class="login-content__namein">
+                            <input type="email" class="login-content__namein" placeholder="Email">
+                            <span>Email</span>
+                        </span>
+                        <span class="login-content__namein">
+                            <input type="password" class="login-content__namein" placeholder="Password" aria-label="Email">
+                            <span>Password</span>
+                        </span>
+                        <p class="login-content__auth">
+                            <span class="login-content-auth__text">
+                                <input type="checkbox" name="remeber-me" id="remeber-me">
+                                <label for="remeber-me">
+                                    Remeber me
+                                </label>
+                            </span>
+                            <span class="login-content-auth__text">
+                                <a href="#">
+                                    Forgot Pasword?
+                                </a>
+                            </span>
+                        </p>
+                        <button class="button-user login-content__button">Sign In</button>
+                        <span class="login-content__note">
+                            <a href="/#">
+                                Privacy Policy
+                            </a>
+                            <a href="/#">
+                                Terms & Conditions
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <div class="login__introduce">
+                    <div class="login-introduce__main">
+                        <h4 class="login-content__heading --heading-intro">
+                            Hello, Friend!
+                        </h4>
+                        <p class="modal-contact__text --text-intro">
+                            Fill up personal information and <br> star journey with us.
+                        </p>
+                        <button class="button-user logUp-introduce__button">Sign Up</button>
+                    </div>
+                </div>        
+            </div> -->
+            
+            <!-- LOGUP BEGIN -->
+            <!-- <div class="login__container">
+                <div class="login__introduce">
+                    <div class="login-introduce__main">
+                        <h4 class="login-content__heading --heading-intro">
+                            Welcome Back!
+                        </h4>
+                        <p class="modal-contact__text --text-intro">
+                            To keep connected with us please login <br> with your personal info.
+                        </p>
+                        <button class="button-user logUp-introduce__button">Sign Up</button>
+                    </div>
+                </div>  
+                <div class="login__content">
+                    <span class="login-content__name">
+                        Anime
+                        <span>Hay</span>
+                    </span>
+                    <div class="login-content__main">
+                        <h4 class="login-content__heading">
+                            Create Account
+                        </h4>
+                        <span class="modal-contact__list">
+                            <a href="#" class="modal-contact__link"><i class="modal-contact__icon fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="modal-contact__link"><i class="modal-contact__icon fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="modal-contact__link"><i class="modal-contact__icon fa-brands fa-google-plus-g"></i></a>
+                        </span>
+                        <p class="modal-contact__text">
+                            or use your email for registration
+                        </p>
+                        <span class="login-content__namein">
+                            <input type="text" class="login-content__namein" placeholder="Name">
+                            <span>Name</span>
+                        </span>
+                        <span class="login-content__namein">
+                            <input type="email" class="login-content__namein" placeholder="Email">
+                            <span>Email</span>
+                        </span>
+                        <span class="login-content__namein">
+                            <input type="password" class="login-content__namein" placeholder="Password" aria-label="Email">
+                            <span>Password</span>
+                        </span>
+                        <button class="button-user login-content__button">Sign Up</button>
+                        <span class="login-content__note">
+                            <a href="/#">
+                                Privacy Policy
+                            </a>
+                            <a href="/#">
+                                Terms & Conditions
+                            </a>
+                        </span>
+                    </div>
+                </div>      
+            </div>
+        </div> -->
+    <!-- </div> -->
+
+</body>
+</html>

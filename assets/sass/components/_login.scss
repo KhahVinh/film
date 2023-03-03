@@ -1,0 +1,232 @@
+// Login
+.login{
+    &__container{
+        --ouline-color: #9ea9a5;
+        display: flex;
+        background-color: var(--history-color);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    // Login content
+    &__content{
+        padding: 12px;
+        border-top-left-radius: 50px;
+        overflow: hidden;
+    }
+    &-content__name{
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--button-signIn-colour);
+        margin-bottom: 18px;
+        margin-left: 12px;
+        span{
+            color: #000000;
+        }
+    }
+    &-content__main{
+        $magin: 80px;
+        align-items: center;
+        display: flex;
+        flex-flow: nowrap column;
+        margin-left: $magin;
+        margin-right: $magin;
+    }
+    &-content__heading{
+        display: inline-block;
+        position: relative;
+        font-size: 1.8rem;
+        font-family: var(--logo-font);
+        padding-bottom: 10px;
+        color: var(--button-signIn-colour);
+        user-select: none;
+        &::after{
+            content: " ";
+            display: block;
+            width: 22px;
+            height: 2px;
+            border-radius: var(--border-radius);
+            background-color: var(--button-signIn-colour);
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &-content__namein{
+        position: relative;
+        --pd:12px;
+        input{
+            margin-top: 12px;
+            font-size: 1.2rem;
+            line-height: 2rem;
+            padding: 0.8rem var(--pd);
+            border-radius: var(--border-radius);
+            outline: var(--ouline-color) solid 1px;
+            background-color: var(--history-color);
+            transition: ease-in-out 0.2s;
+            &::placeholder{
+                font-style: italic;
+                font-size: 1rem;
+                color: var(--ouline-color);
+            }
+            &:focus{
+                outline: var(--button-signIn-colour) solid 1px;
+                box-shadow: 0 0 2px var(--button-signIn-colour);
+            }
+            &:focus ~ span{
+                display: inline-block;
+            }       
+        }
+        span{
+            color: var(--button-signIn-colour);
+            position: absolute;
+            top: 0;
+            left: calc(var(--pd) + 2px);
+            transform: translateY(25%);
+            font-size: 0.8rem;
+            font-weight: 500;
+            display: none;
+            background-color: var(--history-color);
+            padding: 0 3px 0 2px;
+            animation: goLeft ease-out 0.2s;
+        }     
+    }
+
+    &-content__auth{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 12px;
+    }
+
+    &-content-auth__text{
+        display: flex;
+        align-items: center;
+        --font-size:0.8rem;
+        --font-weight:600;
+        --text-color:#000;
+        --line-height: 2rem;
+        label{
+            line-height: var(--line-height);
+            font-size: var(--font-size);
+            font-weight: var(--font-weight);
+            color: var(--text-color);
+            user-select: none;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        a{
+            line-height: var(--line-height);
+            color: var(--text-color);
+            font-size: var(--font-size);
+            font-weight: var(--font-weight);
+        }
+        input{
+            margin-right: 8px;
+            color: var(--button-signIn-colour);
+            background-color: #000;
+            border: var(--ouline-color) solid 1px;
+            // &:checked{
+            //     background-color: var(--button-signIn-colour);
+            //     border-color: var(--button-signIn-colour);
+            // }
+            &:hover{
+                cursor: pointer;
+            }
+            &:checked + label{
+                color: var(--button-signIn-check-colour);
+            }
+        }
+    }
+    &-content__button{
+        --background-color: var(--button-signIn-colour);
+        --text-color: #fff;
+        --border-color: var(--button-signIn-colour);
+        --border-hover-color: var(--button-signIn-colour);
+        --background-hover-color: #fff;
+        --text-hover-color: var(--button-signIn-colour);
+        margin-top: 24px;
+    }
+
+    &-content__note{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+        width: 100%;
+        a{
+            font-size: 0.6rem;
+            color: var(--ouline-color);
+            cursor: pointer;
+        }
+
+            
+    }
+
+    // End Login Content
+
+    // Login Introduce
+    &__introduce{
+        background-image: linear-gradient(0, var(--button-signIn-check-colour), var(--button-signIn-colour));
+        // background-color: var(--button-signIn-check-colour);
+        display: flex;
+    }
+    &-introduce__main{
+        margin: auto 32px auto;
+        text-align: center;
+    }
+}
+.login-content__heading.--heading-intro{
+    color: var(--history-color);
+    &::after{
+        background-color: var(--history-color);
+    }
+}
+.modal-contact__text.--text-intro{
+    color: var(--history-color);
+}
+
+// LogUp Introduce 
+.logUp-introduce__button{
+    margin-top: 24px;
+    --background-color: var(--button-signIn-colour);
+    --border-color: var(--history-color);
+    --text-color: var(--history-color);
+    --border-hover-color: var(--history-color);
+    --background-hover-color: var(--history-color);
+    --text-hover-color: var(--button-signIn-colour);
+}
+
+// Modal 
+.modal-contact{
+    &__list{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__link{
+        color: #000000;
+        margin: 12px 6px 0;
+        $width: 18px;
+        width: $width;
+        height: $width;
+        border: 1px solid var(--ouline-color);
+        border-radius: 50%;
+        font-size: 0.8rem;
+        text-align: center;
+        line-height: $width;
+        transition: linear 0.2s;
+        &:hover{
+            background-color: var(--button-signIn-colour);
+            border-color: var(--button-signIn-colour);
+            color: var(--history-color);
+        }
+    }
+    &__text{
+        margin-top: 16px;
+        font-size: 1rem;
+        color: rgba($color: #000000, $alpha: 0.5);
+    }
+}

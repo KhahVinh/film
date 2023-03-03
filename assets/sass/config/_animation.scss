@@ -1,0 +1,57 @@
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes zoom{
+    from{
+        scale: 0.7;
+    }
+    to{
+        scale: 1;
+    }
+}
+
+@keyframes growh{
+    from{
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes goTop{
+    from{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes goOut{
+    to{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes goLeft{
+    from{
+        transform: translateX(25%) translateY(25%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0) translateY(25%);
+        opacity: 1;
+    }
+}
