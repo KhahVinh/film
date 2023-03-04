@@ -1,9 +1,0 @@
-
-- thêm phần phim chiếu rap & movie
-- note Hot trên các tập phim
-- Màu basic 
-- thêm obtion Hot vào anime mới cập nhật
-- xây bảng xếp hạng top mọi thời đại
-- thanh nav xấu, xây lại
-- không nên dùng màu đỏ quá nhiều, phối màu lại
-- form đăng nhập bị lỗi đoạn text hiển thị label
